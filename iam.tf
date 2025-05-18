@@ -49,7 +49,7 @@ resource "aws_iam_role_policy" "tf-policy" {
     Statement = [
       {
         Sid      = "Statement1"
-        Action   = "apprunner:*"
+        Action   = "ecr:*"
         Effect   = "Allow"
         Resource = "*"
       },
