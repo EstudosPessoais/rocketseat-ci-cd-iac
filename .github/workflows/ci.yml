@@ -21,7 +21,7 @@ jobs:
 
 
     - name: Configure AWS Credentials
-      uses: aws-credentials/configure-aws-credentials@v4
+      uses: aws-actions/configure-aws-credentials@v4
       with:
         aws-region: us-east-1
         role-to-assume: arn:aws:iam::001348462846:role/tf-role
